@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #f1f5f9;
+    }
+    header {
+      background: #1e293b;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #38bdf8;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #f1f5f9;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #38bdf8;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #1e293b;
+      border-radius: 12px;
+    }
+    h2 {
+      color: #38bdf8;
+      margin-bottom: 10px;
+    }
+    .skills span {
+      display: inline-block;
+      background: #0ea5e9;
+      color: #fff;
+      padding: 6px 12px;
+      margin: 6px 6px 0 0;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    .project {
+      background: #334155;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .project h3 {
+      margin-top: 0;
+      color: #facc15;
+    }
+    footer {
+      background: #1e293b;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am <strong>Shreyas Haldikar</strong>, a student passionate about AI/ML, web development, and real-time deepfake face detection projects. This portfolio highlights my skills and work.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Python</span>
+      <span>AI/ML</span>
+      <span>Deepfake Detection</span>
+      <span>HTML & CSS</span>
+      <span>JavaScript</span>
+      <span>Git</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Real-Time Fake Face Detection System</h3>
+      <p>A web-deployed AI/ML system using EfficientNet-B0 to detect deepfake face-swap videos in real time. Built with Python, PyTorch, and deployed via web APIs.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:shreyashaldikar2@gmail.com" style="color:#38bdf8;">shreyashaldikar2@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/SHshreyas/Shreyas_Java_Codes/blob/main/INDEX1.html" target="_blank" style="color:#38bdf8;">github.com/SHshreyas/TNS-JAVA-CODES</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/shreyas-haldikar-416507280/" target="_blank" style="color:#38bdf8;">linkedin.com/in/shreyas-haldikar-416507280</a></p>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Shreyas Haldikar · All rights reserved
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
